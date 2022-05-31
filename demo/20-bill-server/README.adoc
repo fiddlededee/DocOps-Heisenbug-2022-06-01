@@ -1,0 +1,12 @@
+.Bill processor example
+* Test processor itself
+[source, groovy]
+----
+groovy bill-processing.groovy
+----
+* Test actual code doesn't differ from documented code
+[source, groovy]
+----
+groovy test-up-to-date.groovy
+----
+

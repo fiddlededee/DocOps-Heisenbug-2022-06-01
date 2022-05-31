@@ -1,0 +1,5 @@
+----
+include::../bill-processing.groovy[tag=correct-transition-provider, indent=0]
+
+include::../bill-processing.groovy[tag=processing-follows-model, indent=0]
+----

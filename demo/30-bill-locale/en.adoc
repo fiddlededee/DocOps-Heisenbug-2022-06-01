@@ -1,0 +1,5 @@
+:t-billStates-childs-count-4:
+:t-billStates-draft: Draft
+:t-billStates-pending: Pending
+:t-billStates-approved: Approved
+:t-billStates-rejected: Rejected

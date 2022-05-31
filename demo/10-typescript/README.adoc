@@ -1,0 +1,6 @@
+.Universal call typescript
+[source, groovy]
+----
+npx ts-node cv.ts
+----
+

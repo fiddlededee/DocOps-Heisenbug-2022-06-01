@@ -1,0 +1,16 @@
+include::actual-test-adoc.adoc[]
+
+== Схема обработки счёта
+
+ifndef::check-src-partials-bill-process-test[{check-src-partials-bill-process-test}]
+
+Какое-либо текстовое описание, которое невозможно сгенерировать автоматически.
+
+[plantuml]
+....
+skinparam dpi 150
+state draft
+draft --> pending
+pending --> approved
+pending --> rejected
+....

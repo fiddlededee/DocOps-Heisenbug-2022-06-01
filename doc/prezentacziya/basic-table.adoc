@@ -1,0 +1,26 @@
+[.indent-before]
+[cols="1,1,1", options=header]
+|===
+|
+^.^|Автогенерация
+^.^|Тестирование актуальности
+
+|Код реализации, код тестов
+ifdef::v1[h|]
+ifndef::v1[|]
+ifdef::v2[h|]
+ifndef::v2[|]
+
+|DSL
+ifdef::v3[h|]
+ifndef::v3[|]
+ifdef::v4[h|]
+ifndef::v4[|]
+
+|Результат работы приложения, в тестовой или продуктивной среде
+ifdef::v5[h|]
+ifndef::v5[|]
+ifdef::v6[h|]
+ifndef::v6[|]
+
+|===

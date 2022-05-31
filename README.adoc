@@ -1,0 +1,9 @@
+* `/demo` -- demo examples
+* `/demo-bills` -- dummy web application
+* '/doc' -- slides
+
+.To build html and pdf slides run
+[source, bash]
+----
+ci/build-presentation.sh
+----

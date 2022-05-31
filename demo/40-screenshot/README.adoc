@@ -1,0 +1,15 @@
+.Screenshotter and DOM parser
+* Start dummy web application (demo-bills)
+* Run screenshotter
++
+[source, groovy]
+----
+groovy Screenshotter.groovy
+----
+* Run Dom parser
++
+[source, groovy]
+----
+groovy dom-parser.groovy
+----
+

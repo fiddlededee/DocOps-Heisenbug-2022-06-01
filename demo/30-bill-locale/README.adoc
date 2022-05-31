@@ -1,0 +1,6 @@
+.u18n to Asciidoctor attributes converter
+[source, groovy]
+----
+groovy InterfaceToAsciidoc.groovy
+----
+
