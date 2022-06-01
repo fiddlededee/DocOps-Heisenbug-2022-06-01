@@ -10,7 +10,8 @@ bill-process-test.adoc
 
 @ParameterizedTest
 @MethodSource("provideCorrectTransitions")
-void ProcessingFollowsModel(correctTransition) {
+void ProcessingFollowsModel(String correctTransition) {
+
   def transition = correctTransition.split('--&gt;').collect { it.trim() };
   billProcessor.setState(transition[0])
   assertThat(Arrays.asList(billProcessor.getPossibleStates() as String[])
